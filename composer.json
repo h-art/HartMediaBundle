@@ -1,0 +1,20 @@
+{
+  "name": "hart/media-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony HartMediaBundle",
+  "keywords": ["media", "file", "upload"],
+  "homepage": "https://github.com/h-art",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "H-ART",
+      "homepage": "https://github.com/h-art/HartMediaBundle/contributors"
+    }
+  ],
+  "require": {
+    "sonata-project/media-bundle": "^2.3"
+  },
+  "autoload": {
+    "psr-4": { "Hart\\MediaBundle\\": "" }
+  }
+}
